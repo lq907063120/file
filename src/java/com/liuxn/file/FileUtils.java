@@ -53,6 +53,11 @@ public class FileUtils {
 
     }
 
+    /**
+     * 拷贝nef 后缀 的文件
+     * @param oldPath 从一个文件夹
+     * @param newNefPath 新的文件夹
+     */
     public static void copyFolderByNef(String oldPath, String newNefPath) {
 
         try {
