@@ -30,5 +30,32 @@ public class MathTest {
          * set 里的元素是不能重复的，使用iterator()方法来区分是重复与否，equals()是判读两个set是否相等
          * equals 和 == 决定引用值是否指向同一个对象，equals在类中被覆盖，为的是当两个分离的对象的内容和类型相匹配的话，返回true
          */
+
+        /**
+         * error 是表示恢复不是不可能但很困难的情况的一种严重问题。比如“内存溢出，不可能指望程序能处理的情况
+         * exception 表示一种设计或实现问题，表示如果程序运行正常，就不会发生这样的情况
+         */
+        /**
+         * java面向对象的主要特征
+         * 抽象、继承、封装、多态
+         */
+
+        /**
+         *
+         * mybatis（核心sqlSessionFactory）
+         * 是支持定制化sql 存储过程以及高级映射的持久层框架，避免了jdbc代码以及手工设置参数
+         * mybatis 使用xml或者注解配置和映射本体，将java的pojos映射成数据库中的记录
+         *
+         * 优点：
+         * 1、实现类接口的绑定，使用更加方便。（dao层接口与xml映射文件的绑定，自动生成接口实现）
+         * 2、对象关系映射改变，效率更高（一对一、一对多）
+         * 3、采用了功能强大的基于OGNL的表达式消除其他元素
+         *
+         * 原理：
+         *      程序根基xml配置文件创建sqlSessionFactory,sqlSessionFactory根据配置
+         *      获取一个sqlSession，sqlSession包含了执行sql的所有方法，可以通过SQLSessionFactory
+         *      实例直接运行sql语句完成对数据的增删改查和事务的提交，最后关闭sqlsession
+         *
+         */
     }
 }
